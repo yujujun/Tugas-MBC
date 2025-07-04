@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MBC Laboratory</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Halaman Utama -->
+  <header id="home">
+    <nav>
+      <h1>MBC Laboratory</h1>
+      <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#divisi">Divisi & Layanan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><a href="#developer">Developer</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h2>Pusat Riset Teknologi & Konsultan</h2>
+      <p>Cybersecurity | Big Data | Game Technology | GIS</p>
+    </section>
+  </header>
+
+  <!-- Halaman Divisi dan Layanan -->
+  <section id="divisi">
+    <h2>Divisi dan Layanan</h2>
+    <div class="grid-divisi">
+      <div class="card">
+        <h3>Cybersecurity</h3>
+        <p>Solusi perlindungan data, audit sistem, dan keamanan jaringan.</p>
+      </div>
+      <div class="card">
+        <h3>Big Data Analytics</h3>
+        <p>Analisis data besar untuk pengambilan keputusan strategis.</p>
+      </div>
+      <div class="card">
+        <h3>Game Technology</h3>
+        <p>Pengembangan game edukatif, simulasi, dan interaktif.</p>
+      </div>
+      <div class="card">
+        <h3>Geographic Information System (GIS)</h3>
+        <p>Pemetaan digital dan analisis spasial berbasis data lokasi.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Halaman Kontak -->
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Alamat: Jalan Telekomunikasi No.1, Bandung</p>
+    <p>Email: info@mbclab.id | Telepon: +62 812-3456-7890</p>
+
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!..." 
+      width="100%" height="250" style="border:0;" 
+      allowfullscreen="" loading="lazy">
+    </iframe>
+
+    <form action="/kirim-pesan" method="POST" class="form-kontak" id="contact-form">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" name="pesan" required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Halaman Developer -->
+  <section id="developer">
+    <h2>Tentang Developer</h2>
+    <div class="developer-card">
+      <h3>Muhammad Bintang Riyanto</h3>
+      <p>Frontend & Backend Developer | HTML, CSS, JS, PHP, Node.js</p>
+      <a href="https://github.com/username" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MBC Laboratory. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
